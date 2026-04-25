@@ -17,6 +17,7 @@ class KafkaProducer:
             'sasl.mechanism': 'SCRAM-SHA-512',
             'sasl.username': user,
             'sasl.password': password,
+            # 'debug': 'security,broker,topic',
             'error_cb': error_callback,
         }
 
